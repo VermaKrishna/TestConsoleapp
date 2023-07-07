@@ -72,6 +72,7 @@ jobs:
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 'v4.0'
+        force: true
 
     # Add  MSBuild to the PATH: https://github.com/microsoft/setup-msbuild
     - name: Setup MSBuild.exe
